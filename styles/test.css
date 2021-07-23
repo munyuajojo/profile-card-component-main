@@ -1,0 +1,18 @@
+.top{
+    transform: rotateZ(100deg);
+    border: solid 1px black;
+    margin-right: 200px;
+    width: 500px;
+   
+    
+}
+
+.bottom{
+    transform: rotateX(150deg);
+    border: solid 1px red;
+    width: 500px;
+}
+
+main{
+    border:1px solid blue;
+}

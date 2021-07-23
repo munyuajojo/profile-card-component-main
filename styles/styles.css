@@ -1,0 +1,262 @@
+/*
+* {
+ margin:0;
+ padding:0;
+ box-sizing: border-box;   
+} */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(185, 75%, 39%);
+    flex-flow: column wrap;
+    max-width: 1440px;
+
+}
+
+.item{
+    /*flex: grow shrink basis;*/
+   flex: 1;
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom: 60px;
+   margin-top: auto;
+}
+
+.card{
+    height: 50px;
+    background: rgb(250, 250, 250);
+   
+}
+
+
+.card_top{
+    align-content: center;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 310px 100px;
+    background-color:rgb(250, 250, 250);
+    border-radius: 10px 10px 0px 0px;
+    height:160px;
+}
+
+
+.align_card{
+    align-content:space-around;
+    align-items:center;
+    margin-top:20px;
+    padding:60px;
+    align-content: center;
+    width: 200px;
+    height:200px;
+
+}
+.avatar{
+    
+    border-radius:50%;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom:10px;
+    margin-left:70px;
+    margin-right: 10px;
+    border: 3px white;
+    width: 80px;
+    height: 80px;
+
+}
+
+.avatar_Row{
+    
+    width: 220px;
+    height:270px;
+    
+}
+
+.avatar_align{
+    align-content: center;
+    align-items: center;
+    
+}
+
+.card_info{
+    align-content: center;
+    align-items: center;
+    background-color:rgb(250, 250, 250);
+}
+
+.card_city{
+    align-content: center;
+    align-items: center;
+    font-weight:400;
+    font-family:'Kumbh Sans', sans-serif;
+    text-align: center;
+    font-size: small;
+    margin-bottom: 15px;
+   
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(228, 45%, 44%); 
+}
+
+.card_title{
+    font-weight: 700;
+    text-align: center;
+    font-family:'Kumbh Sans', sans-serif;
+    
+}
+
+.card_age{
+    text-align:right;
+    display: inline;
+    font-weight:400;
+    font-family:'Kumbh Sans', sans-serif;
+    
+
+}/*end of 1st flexbox/*
+
+
+
+/* Flexbox 2 */
+.container2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:rgb(250, 250, 250);
+
+}
+
+
+.container2 > div{
+     /*flex: grow shrink basis;*/
+    flex: 1;
+    
+    
+}
+
+.stat__followers{
+    font-weight:700;
+    font-family:'Kumbh Sans', sans-serif;
+    text-align:center;
+    margin-left: 10px;
+
+}
+
+.stat__likes{
+    font-weight:700;
+    font-family:'Kumbh Sans', sans-serif;
+    text-align:center;
+    margin-left: 10px;
+}
+
+.stat__photos{
+    font-weight:700;
+    font-family:'Kumbh Sans', sans-serif;
+    text-align:center;
+    margin-left: 20px;
+}
+.title__followers{
+    align-content: center;
+    align-items: center;
+    font-weight:400;
+    font-family:'Kumbh Sans', sans-serif;
+    text-align: center;
+    font-size: x-small;
+    margin-left: 10px;
+} 
+
+.title__likes{
+    align-content: center;
+    align-items: center;
+    font-weight:400;
+    font-family:'Kumbh Sans', sans-serif;
+    text-align: center;
+    font-size: x-small;
+    margin-left: 15px;
+}
+
+.title__photos{
+    align-content: center;
+    align-items: center;
+    font-weight:400;
+    font-family:'Kumbh Sans', sans-serif;
+    text-align: center;
+    font-size: x-small;
+    margin-left: 20px;
+}/*End of Flexbox 2*/
+
+
+main{
+    margin: auto;
+    padding:auto;
+    border: 2px solid black;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    display:block;
+    height:450px;
+}
+
+.stat_Div{
+    display: inline-block;   
+}
+
+.stat_Div2{
+    display:inline;
+}
+body{
+    
+    max-width: 1440px;
+
+}
+
+.top{
+    transform: rotateZ(100deg);
+    border: solid 1px black;
+    margin-right: 200px;
+    width: 500px;
+   
+    
+}
+
+.bottom{
+    transform: rotateX(150deg);
+    border: solid 1px red;
+    width: 500px;
+    
+}
+
+
+
+/*
+@media screen and (max-width:706px){
+.top{
+        transform:translate(-70%,-55%);
+}
+.bottom{
+        transform: translate(70%, 55%);
+    }
+}
+
+@media screen and (max-height:700px){
+.bottom{
+        transform: translate(70%,75%);
+    }
+}
+*/
+
+
+
+.btm_rowRadius{
+    background-color:rgb(250, 250, 250);
+    border-radius: 0px 0px 10px 10px;
+    height:70px;
+    border-top: 1px inset rgb(250, 250, 250) ;
+    padding:15px;
+}
+
+.bgcolor{
+    background-color: rgb(250, 250, 250);
+}
